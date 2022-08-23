@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body{
+  
+  height: 100%vh;
+  position: relative;
+  background: url('./assets/pexels-maxyne-barcel-10402282 1.png');
+  background-repeat: no-repeat;
+  background-size:  cover;
+  overflow: hidden;
+  background-position: center;
+  
+ /* background:linear-gradient(to right ,rgb(206, 206, 237),rgb(124, 124, 172));
+ opacity: 1.0; */
+}
+.overlay{
+ 
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 755px;
+  background:linear-gradient(to right, rgba(41, 41, 143,0.5) ,rgba(55, 55, 245,0.5));
+  /* opacity: 0.5; */
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.list-item{
+  list-style-type: none;
+  padding: 10px 50px;
+  font-weight:bold;
+  color: rgb(225, 158, 12);
+  font-size: 18px;
+}
+
+.navbar img{
+   height: 37px;
+   margin: 20px 20px ;
+}
+.button-small{
+  margin-top: 20px;
+  margin-right: 70px;
+  width: 70px;
+  padding: 5px;
+  background-color: rgb(224, 52, 52);
+  color: wheat;
+  border: none;
+  z-index: 2;
+}
+
+h1{
+  margin:40px 40px;
+  
+  font-family:sans-serif;
+  font-weight:900;
+  font-size: 110px;
+
+  color: darkgoldenrod;
+   
+  /*height: 300px; */
+  text-align: center;
+  line-height: 110px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  z-index: 1;
+}
+
+.button-large{
+  width: 220px;
+  height: 50px;
+  background-color: rgba(230, 12, 12, 0.801);
+  color: aliceblue;
+  font-family:Dela;
+  font-weight: bold;
+  font-size: 17px;
+  border: none;
+  
+  position: absolute;
+  left: 200px;
+  
+  top: 500px;
+  left: 650px;
+}
+.bottom img{
+  position: absolute;
+  top: 600px; 
+  left: 1370px;
+  height: 130px;
+ 
+}
