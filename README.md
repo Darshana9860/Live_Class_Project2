@@ -1,3 +1,3 @@
 # Live_Class_Project2
-Direct link for Live class Project 2 : 
-[Project 2](http://127.0.0.1:5500/index.html)
+
+![Screenshot (190)](https://user-images.githubusercontent.com/82273693/189121392-f114e7f5-c063-4295-8ee6-d438131bfab8.png)
